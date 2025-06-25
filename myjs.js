@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Hé luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhé? Phải trả lời thật lòng nhaaa!',
+        text: 'Tớ có điều này muốn hỏi cậu nhé?',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/pig.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :v :>',
+        title: 'Nói cho tớ lí do cậu thích tớ đi',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<",
+        cancelButtonText: "Thôi ngại lém",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
